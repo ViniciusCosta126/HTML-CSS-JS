@@ -1,0 +1,69 @@
+/*
+    modelo de caixa
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo {
+    border: 3.3px solid #F3F3F3;
+    width: 180px;
+    height: 180px;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+#caixa {
+    background: #070C2A;
+    width: 560px;
+    height: 560px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#caixa img {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#comandos {
+    width: 40%;
+    height: 60px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #1E488F;
+}
+
+#comandos label {
+    font-weight: bold;
+    color: #F3F3F3;
+    margin-left: 10px;
+}
+
+#comandos input {
+    width: 80%;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+#comandos button {
+    width: 85%;
+    margin-left: 10px;
+    height: 20px;
+    font-weight: bold;
+    background: #FDFDFE;
+    border: #FDDC5C;
+}
+
+#comandos .container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
